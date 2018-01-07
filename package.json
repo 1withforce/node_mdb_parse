@@ -1,0 +1,21 @@
+{
+  "name": "mdb-parse",
+  "version": "1.0.0",
+  "description": "A test for mdb-tools",
+  "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/1withforce/node_mdb_parse.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "Aaron Olinger",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.1.0",
+    "papaparse": "^4.3.6",
+    "shelljs": "^0.7.8"
+  }
+}

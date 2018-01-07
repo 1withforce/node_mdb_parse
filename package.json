@@ -1,17 +1,21 @@
 {
   "name": "mdb-parse",
-  "version": "1.0.0",
-  "description": "A test for mdb-tools",
+  "version": "1.0.1",
+  "description": "A simple Node implementation of mdb-tools",
+  "tags": ["mdb-tools", "mdb", "accdb", "msaccess"],
   "main": "index.js",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/1withforce/node_mdb_parse.git"
   },
+  "bugs":{
+    "url" : "https://github.com/1withforce/node_mdb_parse/issues"
+  },
   "scripts": {
     "test": "mocha",
     "start": "node index.js"
   },
-  "author": "Aaron Olinger",
+  "author": "Aaron Olinger <aaron.olinger@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "mocha": "^4.1.0",

@@ -12,7 +12,7 @@ Currently it only uses the `mdb-export` and `mdb-tables` commands.
 These commands must be accessible in the shell for this package to work.  
 
 ## Usage
-###Initialization
+### Initialization
 Accepts .mdb files and some .accdb files (2010 and ealier)
 ```javascript
 // Import module
@@ -20,14 +20,14 @@ var mdb_parse = require('mdb-parse');
 // Create parser object. Initialize with the name of your database
 var fruit_database = new mdb_parse('./test/fruit.mdb');
 ```
-###list()
+### list()
 ```javascript
 var tables = fruit_database.list();
 console.log(tables);
 // => [ 'Fruit','Fruit Salad','Veggie Salad','Muffin/Bread','Dried'] 
 ```
 
-###table(<table_name>)
+### table(<table_name>)
 ```javascript
 var fruit_table = fruit_database.table("Fruit");
 console.log(fruit_table[1]);
@@ -45,13 +45,13 @@ console.log(fruit_table[1]);
 //      'Vit E': "0"
 //  };
 ```
-#Caveats
+# Caveats
 This package is untested on Windows & Mac but it will probably work as long as you can get 
 [mdbtools](https://github.com/brianb/mdbtools) installed successfully.
 
-#Future Development
+# Future Development
 None unless asked for. The less I have to interact with MS Access the better.
 
-#Acknowledgments
+# Acknowledgments
 Sample database used for tests and examples is from [mdb](https://github.com/maxogden/node-mdb), 
 which is a more complete implementation of mdb-tools in Node but also has not been updated since 2013.

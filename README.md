@@ -13,7 +13,7 @@ These commands must be accessible in the shell for this package to work.
 
 ## Usage
 ### Initialization
-Accepts .mdb files and some .accdb files (2010 and ealier)
+Accepts .mdb files and some .accdb files (2010 and earlier)
 ```javascript
 // Import module
 var mdb_parse = require('mdb-parse');
@@ -47,7 +47,8 @@ console.log(fruit_table[1]);
 ```
 # Caveats
 This package is untested on Windows & Mac but it will probably work as long as you can get 
-[mdbtools](https://github.com/brianb/mdbtools) installed successfully.
+[mdbtools](https://github.com/brianb/mdbtools) installed successfully. 
+I also haven't done any testing for compatibility with earlier versions of papaparse and shelljs.
 
 # Future Development
 None unless asked for. The less I have to interact with MS Access the better.

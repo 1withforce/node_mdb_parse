@@ -16,9 +16,9 @@ These commands must be accessible in the shell for this package to work.
 Accepts .mdb files and some .accdb files (2010 and earlier)
 ```javascript
 // Import module
-var mdb_parse = require('mdb-parse');
+var Mdb = require('mdb-parse');
 // Create parser object. Initialize with the name of your database
-var fruit_database = new mdb_parse('./test/fruit.mdb');
+var fruit_database = new Mdb('./test/fruit.mdb');
 ```
 ### list()
 ```javascript

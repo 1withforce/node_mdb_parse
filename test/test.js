@@ -1,11 +1,11 @@
-const mdb_parse = require("../");
+const Mdb = require("../");
 const assert = require('assert');
 
 describe('mdb-parse', function(){
     var fruits;
     it('should create a new object', function(){
-        fruits = new mdb_parse("./test/fruit.mdb");
-        assert(fruits instanceof mdb_parse);
+        fruits = new Mdb("./test/fruit.mdb");
+        assert(fruits instanceof Mdb);
     });
     describe('#list', function(){
         it('should return correct array of table names', function(){

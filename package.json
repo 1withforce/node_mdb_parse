@@ -1,6 +1,6 @@
 {
   "name": "mdb-parse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple Node implementation of mdb-tools",
   "keywords": ["mdb-tools", "mdb", "accdb", "msaccess"],
   "main": "index.js",

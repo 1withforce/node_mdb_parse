@@ -17,7 +17,7 @@ Accepts .mdb files and some .accdb files (2010 and earlier)
 ```javascript
 // Import module
 var Mdb = require('mdb-parse');
-// Create parser object. Initialize with the name of your database
+// Create parser object. Initialize with path of your .accdb or .mdb file
 var fruit_database = new Mdb('./test/fruit.mdb');
 ```
 ### list()
